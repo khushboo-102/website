@@ -1,132 +1,159 @@
-nav{  
+nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: navy;
-    }
-ul{
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
     display: flex;
     gap: 25px;
     align-items: center;
-    padding-right: 25px;
+    color: white;
     list-style-type: none;
-    }
-section{
-    border: 1px solid  red;
-    display: flex;
-    justify-content: center;  
 }
-#image-container{
+
+#image-first {
+   width: 100%;
+   min-height: 120px;
+   margin: 10px;
+}
+
+.logo {
+    max-height: 100px
+}
+
+section {
+    border: 1px solid;
+}
+
+#sec-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white;
+}
+
+#image-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
-    border-radius:60px;  
 }
-#image-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    align-items: center;
-}
-.image{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-#image-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 35px;
-    border: white;
-    }
 
-.section3{
-    display: flex; 
-    background-color: blue;
-    align-items: center;
-    border: white; 
-    color: white;   
+#image-section div p {
+    color: black;
 }
-.header-sec1{
+
+#image-section div img {
+    border: 3px solid rgb(83, 202, 241);
+    border-radius: 15px;
+}
+
+#section-1 {
+    display: flex;
     background-color: navy;
-    border: white; 
-    align-items: center;
-    padding-bottom: 10px;
-       
-}
-
-ul{
-    color: white;
-    justify-content: flex-end;
-    
-}
-#text-container2{
-    background: rgb(237, 235, 235);
-    align-items: center;
-    border: wheat;
-    font-size: 25px;
-}
-#first{
-    color: white;
-    font-family: Aria;
-    font-size: 17px;
-}
-#image-first{
-    margin-bottom: 40px;
-    padding-left: 40px;
-}
-span{
-    font-size: 15px;
-    
-}
-
-.header-sec1 img{
-min-width: 150px;
-width: 80%;
-height: 80%;
-min-height: 300px;
-
-}
-
-.img-1{
-    flex-direction: row;
-    border: 4px solid blue;
-    border-radius: 25px;
-    width: 80%;
-    height: 80%;
-    min-width: 350px;
-    min-height: 350px;
-}
-#button2{
-    display: flex;
-    align-items: end;
-    justify-content: end;
-}
-footer{
-    display: flex;
-    background-color: black;
-    color: aliceblue;
     align-items: center;
     justify-content: center;
-    gap: 15px;
-    
+    border: white;
+
 }
-.image-center{
+
+button {
+    background-color: rgb(77, 72, 222);
+    color: wheat;
+    border-radius: 7px;
+}
+
+ul {
+    color: wheat;
+}
+
+#image-section div {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    border: navy;
+    flex-direction: column;
 }
-a{
-    color: aliceblue;
+
+.sec-3 {
+    background-color: rgb(199, 197, 197);
+    display: flex;
+    justify-content: center;
+    border: white;
 }
-a,li{
-    text-decoration: none;
+
+.sec-3 p {
+    color: black;
 }
-button{
-    color: aliceblue;
-    background-color: blue;
+
+.sec-3 div {
+    display: flex;
+    justify-content: flex-end;
 }
-#image-second
-{
-    min-height: 20%;
+
+#p2 {
+    margin-top: 100px;
+}
+
+#navy {
+    display: flex;
+    background-color: navy;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.grey-p-2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.header-content {
+    padding: 20px;
+}
+
+.header-content h1,
+p {
+    color: white;
+}
+
+.header-content h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.p1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+}
+
+footer {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 3px solid rgb(226, 221, 189);
+    background-color: rgb(56, 126, 225);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer button {
+    max-height: 40px;
+}
+
+@media(min-width: 700px){
+    #image-first{
+        width: 20%;
+    }
 }
